@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentista</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="animacao.css">
+</head>
+
+<body>
+    <div class="menu-mobile js-menu-mobile">
+        <div class="close js-close">
+            <img src="img/icon-close.svg" alt="">
+        </div>
+        <nav class="navbar-mobile">
+            <ul class="js-nav">
+                <li><a href="#sobreNos">Sobre nós</a></li>
+                <li><a href="#contato" class="btn">Agendar consulta</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <div class="topo">
+            <p>Aberto de Segunda à Sexta das 09:00 às 18:00</p>
+        </div>
+        <div class="navbar js-menu">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">Dental Clinic</a>
+                </div>
+
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#sobreNos">Sobre nós</a></li>
+                        <li><a href="#contato" class="btn">Agendar consulta</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-burger">
+                    <img class="js-burger" src="img/icon-burger.svg" alt="">
+                </div>
+            </div>
+            <!--container-->
+
+        </div>
+
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Trazendo seu sorriso de volta</h1>
+                <p>Com atendimento diferenciado, estamos sempre buscando atender as necessidades e desejos de nossos pacientes.</p>
+                <a href="#contato" class="btn js-agendar">Agendar consulta</a>
+            </div>
+            <!--hero-content-->
+            <div class="hero-image">
+                <img src="img/dentista.png" alt="Dentista">
+            </div>
+        </div>
+        <!--container-->
+        <div class="box"></div>
+    </section>
+    <!--hero-->
+
+    <section class="testmonials">
+        <div class="container">
+            <div class="testmonial-item">
+                <p>
+                    “Eu não ia ao dentista há 4 anos e toda a equipe me fizeram me sentir muito confortável! Estou muito feliz com o resultado.”
+                </p>
+                <span>Célia Maria</span>
+            </div>
+            <div class="testmonial-item">
+                <p>
+                    “Toda a equipe cuidará de você no momento em que você passar pela porta. Toda a equipe é muito educada e fazem com amor todo o trabalho.”
+                </p>
+                <span>Sandro</span>
+            </div>
+            <div class="testmonial-item">
+                <p>
+                    “Iniciei meu tratamento este ano e estou muito feliz por ter encontrado a clinica! Toda a equipe é muito prestativa.”
+                </p>
+                <span>Bruno Santos</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="sobreNos">
+        <div class="container">
+            <div class="about-header anime">
+                <h3>Há mais de duas décadas transformando sorrisos</h3>
+                <h2>Trazendo de volta sua confiança</h2>
+
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="img/sobre-img.png" alt="">
+                </div>
+                <div class="about-text anime">
+
+                    <p>Desde sua fundação, a Odonto Clinic é reconhecida pelo seu cuidado com seus pacientes, sua preocupação em se manter sempre atualizada com equipamentos de primeira e execução de técnicas avançadas da área odontologica.</p>
+                    <p>Há mais de uma decada no mercado, a clinica já atendeu mais de 30 mil pacientes por todo o Brasil e todos eles saindo mais confiante com o seu sorriso.</p>
+
+                </div>
+            </div>
+        </div>
+        <!--container-->
+    </section>
+    <section class="call-to-action container anime">
+        <div class="call-text">
+            <h2>Faça o sorriso dos seus sonhos uma realidade</h2>
+            <p>Ligue agora ou marque uma consulta online</p>
+        </div>
+        <div class="call-button">
+            <a href="#contato" class="btn js-agendar">Agendar consulta</a>
+        </div>
+    </section>
+    <section class="contato" id="contato">
+        <div class="container">
+            <div class="contato-whats">
+                <h2>Fale conosco pelo whatsapp</h2>
+                <a href="" class="btn">Agendar consulta</a>
+                <img src="img/celular.png" alt="whatsapp" class="anime">
+            </div>
+            <div class="contato-tag anime">
+                <p>OU</p>
+            </div>
+            <div class="contato-form" data-anime="aparecer">
+                <form action="">
+                    <input type="text" placeholder="Digite seu nome">
+                    <input type="text" placeholder="Digite seu e-mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                    <button class="btn">Enviar mensagem</button>
+                </form>
+            </div>
+        </div>
+        <div class="box"></div>
+    </section>
+
+    <footer>
+        <p class="container">Todos os direitos reservados</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
